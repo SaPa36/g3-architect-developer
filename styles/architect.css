@@ -1,0 +1,67 @@
+/* Shared style */
+body {
+    font-family: 'Lato',sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.btn-primary{
+    border-radius: 8px; 
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px 25px;
+    cursor: pointer;
+
+}
+
+/* Header style */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+    color: rgb(19, 19, 19);
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* banner style */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+}
+
+.banner-description{
+    color: rgb(114, 114, 114);
+}
