@@ -92,3 +92,34 @@ nav li a{
         flex-direction: column;
     }
 }
+
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams style */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 250px;
+}
+.teams-title{
+    font-size: 2.8rem;
+    
+}
+.teams-title .quick-list{
+    color: rgb(114, 114, 114);
+}
+.teams-title .text-features{
+    color: rgb(255, 144, 14);
+}
